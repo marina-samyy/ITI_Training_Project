@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Head: charset, viewport, description, title, favicon -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My Portfolio Page - A simple HTML-only portfolio project">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <title>My Portfolio Page</title>
+</head>
+<body>
+
+    <!-- Header + Navigation -->
+    <header>
+        <span>Marina Samy</span>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero / About Section -->
+        <section id="about">
+            <h1>Hi, I'm Marina Samy</h1>
+            <p>
+                I'm a front-end developer in training, passionate about building clean and
+                accessible web pages. I love turning simple ideas into structured, working
+                interfaces one tag at a time. I'm currently based in <span>Cairo, Egypt</span>.
+            </p>
+            <img src="../images/profile.svg" alt="Illustrated avatar portrait of Marina Samy" height="150">
+        </section>
+
+        <hr>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>My Skills</h2>
+
+            <p>Here are the technologies and tools I currently work with:</p>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Git &amp; GitHub</li>
+            </ul>
+
+            <p>My learning journey so far, step by step:</p>
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ol>
+
+            <p>
+                I truly <strong>love</strong> writing clean code, and I am <em>always</em>
+                trying to improve. My favorite part of the track so far has been
+                <mark>Semantic HTML</mark>.
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- My Courses Table -->
+        <section id="courses">
+            <h2>My Courses</h2>
+            <table border="1">
+                <caption>A summary of the courses I have completed or am currently taking</caption>
+                <thead>
+                    <tr>
+                        <th>Course Name</th>
+                        <th>Duration</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML Fundamentals</td>
+                        <td>2 weeks</td>
+                        <td>Completed</td>
+                    </tr>
+                    <tr>
+                        <td>CSS Styling</td>
+                        <td>3 weeks</td>
+                        <td>Completed</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript Basics</td>
+                        <td rowspan="2">4 weeks</td>
+                        <td>In Progress</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript Projects</td>
+                        <td>In Progress</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Total Courses</td>
+                        <td>4</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- Gallery Section -->
+        <section id="gallery">
+            <h2>Gallery</h2>
+
+            <figure>
+                <img src="../images/project1.svg" alt="Illustration of a to-do list app interface" height="150">
+                <figcaption>To-Do List App</figcaption>
+            </figure>
+
+            <figure>
+                <img src="../images/project2.svg" alt="Illustration of a personal blog website layout" height="150">
+                <figcaption>Personal Blog Website</figcaption>
+            </figure>
+
+            <figure>
+                <img src="../images/project3.svg" alt="Illustration of a weather forecast app showing sunny conditions" height="150">
+                <figcaption>Weather App</figcaption>
+            </figure>
+        </section>
+
+        <hr>
+
+        <!-- Contact Form Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+
+                <p>
+                    <label for="full-name">Full Name:</label><br>
+                    <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required>
+                </p>
+
+                <p>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                </p>
+
+                <p>
+                    <label for="phone">Phone Number:</label><br>
+                    <input type="tel" id="phone" name="phone" placeholder="01211637414" value="01211637414">
+                </p>
+
+                <p>
+                    <label for="birthdate">Date of Birth:</label><br>
+                    <input type="date" id="birthdate" name="birthdate">
+                </p>
+
+                <p>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="5" cols="40" placeholder="Write your message here..."></textarea>
+                </p>
+
+                <p>
+                    <label for="subject">Subject:</label><br>
+                    <select id="subject" name="subject">
+                        <option value="general">General Inquiry</option>
+                        <option value="job">Job Opportunity</option>
+                        <option value="feedback">Feedback</option>
+                    </select>
+                </p>
+
+                <fieldset>
+                    <legend>Preferred Contact Method:</legend>
+                    <p>
+                        <input type="radio" id="contact-email" name="contact-method" value="email">
+                        <label for="contact-email">Email</label>
+                    </p>
+                    <p>
+                        <input type="radio" id="contact-phone" name="contact-method" value="phone">
+                        <label for="contact-phone">Phone</label>
+                    </p>
+                </fieldset>
+
+                <p>
+                    <input type="checkbox" id="terms" name="terms" value="agreed">
+                    <label for="terms">I agree to the terms and conditions</label>
+                </p>
+
+                <p>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </p>
+
+            </form>
+        </section>
+
+        <hr>
+
+        <!-- FAQ Section -->
+        <section id="faq">
+            <h2>Frequently Asked Questions</h2>
+
+            <details>
+                <summary>What technologies do you work with?</summary>
+                <p>I currently focus on HTML, CSS, and JavaScript for front-end development.</p>
+            </details>
+
+            <details>
+                <summary>Are you available for freelance work?</summary>
+                <p>Yes, feel free to reach out through the contact form above.</p>
+            </details>
+
+            <details>
+                <summary>Where can I see more of your projects?</summary>
+                <p>Check out my GitHub profile linked in the footer below.</p>
+            </details>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <address>
+            Email: <a href="mailto:marina.samy@example.com">marina.samy@example.com</a><br>
+            Phone: 01211637414<br>
+            Location: Cairo, Egypt
+        </address>
+
+        <p>&copy; 2026 Marina Samy. All rights reserved.</p>
+
+        <p>
+            Follow me:&nbsp;
+            <a href="https://github.com/" target="_blank">GitHub</a> |
+            <a href="https://linkedin.com/" target="_blank">LinkedIn</a> |
+            <a href="https://twitter.com/" target="_blank">Twitter</a>
+        </p>
+    </footer>
+
+</body>
+</html>
