@@ -1,0 +1,521 @@
+HTML — From an Idea to the Foundation of the Web
+
+1. BEFORE HTML — WHY WAS IT NEEDED?
+
+The Internet existed before the World Wide Web. People could exchange information, but there was a need for a simple way to organize documents and connect information together.
+
+In 1989, Tim Berners-Lee, a British computer scientist working at CERN, proposed the World Wide Web. His idea was to make it easier for researchers to share and access information.
+
+HTML became one of the main technologies behind this idea.
+
+The important point:
+HTML was not originally created to make beautiful websites. Its main purpose was to structure information and connect documents through HyperText.
+
+
+
+2. WHO CREATED HTML?
+
+HTML is closely associated with Tim Berners-Lee.
+
+In 1989, he proposed the World Wide Web while working at CERN.
+
+The original Web was based on three important ideas:
+
+- HTML: to structure and describe documents
+- HTTP: to transfer information between a browser and a server
+- URL: to identify and locate resources
+
+Together, these ideas helped create the Web as we know it.
+
+
+
+3. WHAT DOES HTML MEAN?
+
+HTML stands for:
+
+HyperText Markup Language
+
+HyperText:
+Text that can contain links to other information or documents.
+
+Markup:
+Tags are used to describe the structure and meaning of content.
+
+Language:
+HTML has rules and syntax for writing web documents.
+
+Important:
+HTML is NOT a programming language.
+
+It is a markup language because it describes the structure and meaning of content rather than providing programming logic like loops, conditions, and algorithms.
+
+
+
+4. WHAT PROBLEM DOES HTML SOLVE?
+
+A browser needs to understand what each piece of content represents.
+
+For example:
+
+Is this text a heading?
+Is it a paragraph?
+Is this an image?
+Is this a link?
+Is this a list?
+Is this a form?
+
+HTML provides that structure.
+
+Example:
+
+<h1>My Website</h1>
+<p>Welcome to my website.</p>
+
+The browser understands that the first element is a heading and the second is a paragraph.
+
+So HTML gives a webpage its STRUCTURE and MEANING.
+
+
+
+5. HTML, CSS, AND JAVASCRIPT
+
+Modern web development commonly uses three main technologies:
+
+HTML -> Structure
+CSS -> Appearance and Design
+JavaScript -> Behavior and Interaction
+
+For example, in a login page:
+
+HTML creates:
+- Email input
+- Password input
+- Login button
+
+CSS controls:
+- Colors
+- Fonts
+- Layout
+- Spacing
+
+JavaScript can handle:
+- Validation
+- Click interactions
+- Dynamic changes
+
+HTML is therefore the foundation, while CSS and JavaScript build on that foundation.
+
+
+
+6. HOW HTML EVOLVED
+
+HTML developed through several stages:
+
+HTML
+HTML 2.0
+HTML 3.2
+HTML 4.01
+XHTML
+HTML5
+HTML Living Standard
+
+HTML5 introduced many important capabilities and semantic elements, including:
+
+- <header>
+- <nav>
+- <main>
+- <section>
+- <article>
+- <footer>
+- <audio>
+- <video>
+- <canvas>
+- Improved form controls
+
+Today, HTML is continuously developed as a Living Standard rather than being treated as a language that simply stopped at HTML5.
+
+
+7. BASIC HTML DOCUMENT STRUCTURE
+
+A simple HTML document looks like this:
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Page</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <p>Welcome to my website.</p>
+</body>
+</html>
+
+Main parts:
+
+<!DOCTYPE html>
+Tells the browser to use modern HTML parsing behavior.
+
+<html>
+The root element of the document.
+
+<head>
+Contains information about the document that is not normally displayed as the main page content.
+
+<title>
+Defines the title shown in the browser tab.
+
+<body>
+Contains the visible page content.
+
+
+
+8. WHAT IS A TAG?
+
+Example:
+
+<p>Hello</p>
+
+<p> is the opening tag.
+Hello is the content.
+</p> is the closing tag.
+
+Together, they form an HTML element.
+
+Some HTML elements do not have closing tags, such as:
+
+<img>
+<br>
+<hr>
+<input>
+
+
+
+9. ATTRIBUTES
+
+HTML elements can have attributes that provide additional information.
+
+Example:
+
+<a href="https://example.com">Visit</a>
+
+href is an attribute.
+
+Another example:
+
+<img src="cat.jpg" alt="A black cat">
+
+src tells the browser where the image is located.
+
+alt provides alternative text describing the image.
+
+Common attributes include:
+
+id
+class
+href
+src
+alt
+title
+type
+name
+value
+placeholder
+required
+
+
+
+10. IMPORTANT HTML TAGS
+
+TEXT:
+
+<h1> to <h6> -> Headings
+<p> -> Paragraph
+<br> -> Line break
+<strong> -> Strong importance
+<em> -> Emphasis
+
+LINKS AND IMAGES:
+
+<a> -> Link
+<img> -> Image
+
+LISTS:
+
+<ul> -> Unordered list
+<ol> -> Ordered list
+<li> -> List item
+
+STRUCTURE:
+
+<header> -> Header
+<nav> -> Navigation
+<main> -> Main content
+<section> -> Section
+<article> -> Independent article/content
+<footer> -> Footer
+<div> -> Generic block container
+<span> -> Generic inline container
+
+FORMS:
+
+<form> -> Form
+<label> -> Label for a form control
+<input> -> Input field
+<textarea> -> Multi-line text input
+<select> -> Dropdown
+<option> -> Option inside a select
+<button> -> Button
+
+TABLES:
+
+<table> -> Table
+<tr> -> Table row
+<th> -> Table header cell
+<td> -> Table data cell
+
+MEDIA:
+
+<audio> -> Audio
+<video> -> Video
+
+
+
+11. SEMANTIC HTML
+
+Semantic HTML means choosing elements based on what the content means, not only how it looks.
+
+For example:
+
+<header>
+<nav>
+<main>
+<section>
+<article>
+<footer>
+
+Instead of using <div> for everything.
+
+Semantic HTML makes the structure easier to understand for:
+
+- Developers
+- Browsers
+- Search engines
+- Screen readers and accessibility tools
+
+Example:
+
+<div>Header</div>
+<div>Navigation</div>
+<div>Main Content</div>
+
+can often be better represented as:
+
+<header>Header</header>
+<nav>Navigation</nav>
+<main>Main Content</main>
+
+The important idea:
+An HTML tag should describe the role of the content whenever possible.
+
+
+12. BLOCK AND INLINE ELEMENTS
+
+Block elements normally start on a new line and take up the available horizontal space.
+
+Examples:
+
+<div>
+<p>
+<h1>
+<section>
+
+Inline elements normally remain within the flow of text.
+
+Examples:
+
+<span>
+<a>
+<strong>
+<em>
+
+This distinction is especially useful when learning how CSS controls layout.
+
+
+13. FORMS
+
+Forms are one of the most common uses of HTML.
+
+Example:
+
+<form>
+    <label>Name</label>
+    <input type="text">
+
+    <label>Email</label>
+    <input type="email">
+
+    <button>Submit</button>
+</form>
+
+HTML creates the structure and controls of the form.
+
+The actual processing of submitted data usually involves JavaScript and/or a backend depending on the application.
+
+
+
+14. ACCESSIBILITY
+
+HTML is also important for accessibility.
+
+Good HTML helps people who use:
+
+- Screen readers
+- Keyboard navigation
+- Assistive technologies
+
+For example:
+
+<button>Submit</button>
+
+is more meaningful and accessible than using:
+
+<div>Submit</div>
+
+and trying to make the <div> behave like a button.
+
+Using the correct HTML element gives both the browser and assistive technologies useful information about what the element is supposed to do.
+
+
+
+15. HTML AND SEO
+
+HTML also helps search engines understand the structure and content of a webpage.
+
+Important elements can include:
+
+<title>
+<h1>
+<h2>
+<meta>
+
+Semantic HTML can also make the structure of a page clearer.
+
+HTML alone does not guarantee good search ranking, but correct structure and meaningful content are important parts of a well-built webpage.
+
+
+
+16. HTML5
+
+HTML5 introduced and standardized many features that made HTML more suitable for modern websites and web applications.
+
+Examples include:
+
+- Semantic elements
+- Native audio
+- Native video
+- Canvas
+- Improved forms
+- Better support for modern web applications
+
+Important HTML5 semantic elements include:
+
+<header>
+<nav>
+<main>
+<section>
+<article>
+<aside>
+<footer>
+
+
+
+17. COMMON HTML MISTAKES
+
+Some common mistakes beginners make are:
+
+- Using <div> for everything
+- Forgetting alt text for images
+- Using headings only because they look bigger
+- Using <br> to create spacing instead of using CSS
+- Confusing HTML with CSS or JavaScript
+- Creating unclear or badly organized structure
+- Forgetting required closing tags
+- Ignoring accessibility
+
+Good HTML is not just about making the page appear correctly. It is about creating a clear and meaningful structure.
+
+
+
+18. HOW THE BROWSER USES HTML
+
+A simplified process is:
+
+HTML File
+   |
+   v
+Browser
+   |
+   v
+HTML Parser
+   |
+   v
+DOM (Document Object Model)
+   |
+   v
+Rendered Webpage
+
+The browser reads the HTML and builds a DOM tree representing the document.
+
+CSS can then style that structure, while JavaScript can interact with and modify it.
+
+
+
+19. WHERE HTML IS USED TODAY
+
+HTML is used as the foundation of:
+
+- Websites
+- Web applications
+- E-commerce websites
+- Dashboards
+- Blogs
+- Forms
+- Landing pages
+- Documentation
+- Online services
+
+It is one of the basic technologies behind the modern Web.
+
+
+
+20. HTML IN ONE SIMPLE IDEA
+
+HTML is the language that gives web content structure and meaning.
+
+Without HTML, a browser would not have the same clear information about what is a heading, paragraph, link, image, form, article, or navigation section.
+
+CSS can make the page beautiful.
+JavaScript can make it interactive.
+But HTML provides the structure they work with.
+
+
+
+21.FINAL SUMMARY
+
+HTML started from a simple need: to organize and connect information on the Web.
+
+It evolved from early document markup into the modern HTML standard used by websites and web applications around the world.
+
+The most important things to understand are not only the names of tags, but:
+
+- Why HTML exists
+- How HTML structures information
+- The difference between HTML, CSS, and JavaScript
+- Tags and elements
+- Attributes
+- Semantic HTML
+- Forms
+- Accessibility
+- Basic document structure
+- Common HTML elements
+
