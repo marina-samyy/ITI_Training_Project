@@ -1,0 +1,63 @@
+body {
+    background-color: #f3e8ff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+    background-color: #ffffff;
+    width: 300px;
+    padding: 20px;
+    margin: 5rem auto;
+    border: 2px solid #e9d5ff;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(126, 34, 206, 0.15);
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 15px auto;
+    object-fit: cover;
+    border: 3px solid #7c3aed;
+}
+
+.name {
+    color: #581c87;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.job-title {
+    color: #7c3aed;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.description {
+    color: #6b7280;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.contact-btn {
+    background-color: #7c3aed;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+    display: block;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+    background-color: #6d28d9;
+}
+
