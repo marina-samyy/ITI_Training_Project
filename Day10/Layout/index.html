@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>assignment-day10</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700;900&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+
+
+<header class="site-header">
+  <nav class="navbar-custom">
+    <a href="#hero" class="brand">Thistledown <span>House</span></a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="nav-burger" aria-label="Open menu">
+    </label>
+
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#story">Our Story</a></li>
+      <li><a href="#needs">Current Needs</a></li>
+      <li><a href="#children">Our Children</a></li>
+      <li><a href="#help">Get Involved</a></li>
+      <li><a href="#footer" class="nav-cta">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+<section id="hero" class="hero">
+  <div class="hero-shape shape-1"></div>
+  <div class="hero-shape shape-2"></div>
+  <div class="hero-content">
+    <p class="eyebrow">Thistledown House Children's Home</p>
+    <h1>Every child deserves a home where they feel safe</h1>
+    <p class="hero-text">Since 2009, we've given children a place to grow, learn, and simply be kids. Whatever you can give — time, skills, or support — helps write the next chapter of a child's life.</p>
+    <div class="hero-buttons">
+      <a href="#help" class="btn-primary">Donate Now</a>
+      <a href="#story" class="btn-outline">Read Our Story</a>
+    </div>
+  </div>
+</section>
+
+
+<section id="story" class="story section-padding">
+  <div class="story-wrapper">
+    <div class="story-image">
+      <img src="../images/home.svg" alt="Illustration of the Thistledown House home with children holding hands together" class="image-box">
+    </div>
+    <div class="story-text">
+      <h2 class="section-title">Our Story</h2>
+      <p>We started in a single room with five children. Today, Thistledown House is home to more than sixty children who find education, healthcare, and genuine care under one roof. We believe a safe childhood is a right, not a privilege, and we work every day to make that real.</p>
+      <p>Our team of caregivers and counselors walks alongside every child, from the moment they arrive to the day they're ready to stand confidently on their own.</p>
+      <ul class="story-stats">
+        <li><strong>60+</strong><span>Children in our care</span></li>
+        <li><strong>15</strong><span>Years of service</span></li>
+        <li><strong>200+</strong><span>Active volunteers</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+<section id="needs" class="needs section-padding">
+  <h2 class="section-title center">Current Needs</h2>
+  <p class="section-sub center">Here's where your support makes the biggest difference this month</p>
+
+  <div class="needs-grid">
+    <div class="need-card">
+      <div class="need-icon" aria-hidden="true">
+        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M24 12c-4-3-10-4-15-3v25c5-1 11 0 15 3 4-3 10-4 15-3V9c-5-1-11 0-15 3z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+          <path d="M24 12v25" stroke="currentColor" stroke-width="2.5"/>
+        </svg>
+      </div>
+      <h3>Education</h3>
+      <p>Books, school supplies, and tutoring for children at every grade level.</p>
+    </div>
+    <div class="need-card">
+      <div class="need-icon" aria-hidden="true">
+        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M6 24c0-8 6-13 13-13 3 0 5 1.2 5 1.2S26 10 29 10c7 0 13 5 13 13 0 12-18 22-18 22S6 36 6 24z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+          <path d="M24 18v12M18 24h12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <h3>Healthcare</h3>
+      <p>Regular checkups, medicine, and ongoing care to keep every child healthy.</p>
+    </div>
+    <div class="need-card">
+      <div class="need-icon" aria-hidden="true">
+        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M8 22c0-6 7-11 16-11s16 5 16 11" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+          <path d="M6 22h36l-2.5 12c-.6 3-3.2 5-6.2 5H14.7c-3 0-5.6-2-6.2-5L6 22z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+          <path d="M24 6v6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <h3>Nutrition</h3>
+      <p>Balanced daily meals tailored to children of every age group.</p>
+    </div>
+    <div class="need-card">
+      <div class="need-icon" aria-hidden="true">
+        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M24 6C13 6 6 14 6 23c0 5 3 8 7 8 2.5 0 3.5-1.5 3.5-3.5S15 24 15 22c0-3 3-5 6-5h9c5 0 9-3 9-8 0-2-1-3-1-3" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M24 6c6 0 11.5 2.5 15 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+          <circle cx="16" cy="16" r="2" fill="currentColor"/>
+          <circle cx="24" cy="12" r="2" fill="currentColor"/>
+          <circle cx="32" cy="16" r="2" fill="currentColor"/>
+          <circle cx="14" cy="24" r="2" fill="currentColor"/>
+        </svg>
+      </div>
+      <h3>Play & Creativity</h3>
+      <p>Art workshops, sports, and outings that let kids simply be kids.</p>
+    </div>
+  </div>
+</section>
+
+
+<section id="children" class="children section-padding">
+  <h2 class="section-title center light">Voices From the House</h2>
+
+  <div class="testimonials">
+    <blockquote class="testimonial">
+      <p>Here I learned that family isn't only who you're born to , it's who shows up for you, every day.</p>
+    </blockquote>
+    <blockquote class="testimonial">
+      <p>With the support and tutoring I got here, I graduated at the top of my class this year.</p>
+    </blockquote>
+    <blockquote class="testimonial">
+      <p>This house taught me how to paint. Now I dream of becoming an artist one day.</p>
+    </blockquote>
+  </div>
+</section>
+
+<section id="help" class="help section-padding">
+  <h2 class="section-title center">Ways to Get Involved</h2>
+
+  <div class="container">
+    <div class="row g-4 justify-content-center">
+      <div class="col-12 col-md-4">
+        <div class="help-card">
+          <h3>Give a Donation</h3>
+          <p>A one-time or monthly gift covers essentials like education, healthcare, and food.</p>
+          <a href="#" class="btn-primary small">Donate Now</a>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="help-card">
+          <h3>Volunteer</h3>
+          <p>Join our volunteer team and share your time and skills through tutoring or activities.</p>
+          <a href="#" class="btn-outline small">Become a Volunteer</a>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="help-card">
+          <h3>Sponsor a Child</h3>
+          <p>Sponsor a child directly and follow their educational and health journey step by step.</p>
+          <a href="#" class="btn-outline small">Coming Soon</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="footer" class="site-footer">
+  <div class="footer-grid">
+    <div class="footer-about">
+      <h3>Thistledown House</h3>
+      <p>A safe home for every child who needs love, care, and a real chance at a better life.</p>
+    </div>
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#story">Our Story</a></li>
+        <li><a href="#needs">Current Needs</a></li>
+        <li><a href="#help">Get Involved</a></li>
+      </ul>
+    </div>
+    <div class="footer-contact">
+      <h4>Contact Us</h4>
+      <p>Cairo, Egypt</p>
+      <p>marinasamy212003@gmail.com</p>
+      <p>01211637414</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>c 2026 Thistledown House. All rights reserved.</p>
+  </div>
+</footer>
+
+<a href="#help" class="floating-donate">Donate</a>
+
+</body>
+</html>
