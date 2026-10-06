@@ -1,0 +1,32 @@
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+    padding: 20px;
+}
+
+.buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+/* Purple Shades Palette */
+.btn-purple-1 { background-color: #E9D5FF; color: #581C87; border: none; }
+.btn-purple-2 { background-color: #D8B4FE; color: #581C87; border: none; }
+.btn-purple-3 { background-color: #C084FC; color: #1E1B4B; border: none; }
+.btn-purple-4 { background-color: #A855F7; color: #FFFFFF; border: none; }
+.btn-purple-5 { background-color: #9333EA; color: #FFFFFF; border: none; }
+.btn-purple-6 { background-color: #7E22CE; color: #FFFFFF; border: none; }
+.btn-purple-7 { background-color: #6B21A8; color: #FFFFFF; border: none; }
+.btn-purple-8 { background-color: #3B0764; color: #FFFFFF; border: none; }
+
+.btn-purple-link { 
+    background-color: transparent; 
+    color: #7E22CE; 
+    text-decoration: underline; 
+    border: none;
+}
+
+/* Hover effects */
+.btn[class*="btn-purple-"]:hover {
+    opacity: 0.85;
+}

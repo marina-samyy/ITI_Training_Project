@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Goose Bistro | Pizza-on-Demand</title>
+    <!-- link of css (external) -->
+    <link rel="stylesheet" href="../css/design.css">
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav>
+        <a href="#">Main</a>
+        <a href="#">Make an Order</a>
+        <a href="#">Contact Us</a>
+    </nav>
+
+
+    <header>
+        <h1>Black Goose Bistro | Pizza-on-Demand</h1>
+        <p>Our 12" wood-fired pizzas are available for delivery. Build your custom pizza and we'll deliver it within an hour.</p>
+    </header>
+
+    <form action="#">
+        
+        <fieldset class="info-section">
+            <legend>Your Information</legend>
+            
+            <div class="form-row">
+                <label for="name">Name :</label>
+                <input type="text" id="name" name="name">
+            </div>
+            
+            <div class="form-row">
+                <label for="address">Address :</label>
+                <input type="text" id="address" name="address">
+            </div>
+            
+            <div class="form-row">
+                <label for="phone">Telephone Number :</label>
+                <input type="tel" id="phone" name="phone">
+            </div>
+            
+            <div class="form-row">
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email">
+            </div>
+            
+            <div class="form-row">
+                <label for="instructions">Delivery Instruction :</label>
+                <textarea id="instructions" name="instructions" placeholder="No more than 200 character long" rows="3"></textarea>
+            </div>
+        </fieldset>
+
+        <h2>Design Your Dream Pizza:</h2>
+
+        <fieldset class="pizza-specs">
+            <legend>Pizza specs</legend>
+            <p class="section-subtitle">Crust (Choose one):</p>
+            
+            <div class="checkbox-group">
+                <label><input type="radio" name="crust" value="classic"> Classic White</label>
+                <label><input type="radio" name="crust" value="multigrain"> Multigrain</label>
+                <label><input type="radio" name="crust" value="stuffed"> Cheese-stuffed crust</label>
+                <label><input type="radio" name="crust" value="gluten-free"> Gluten-free</label>
+            </div>
+        </fieldset>
+
+        <fieldset class="toppings-section">
+            <p class="section-subtitle">Toppings (Choose as many as you want):</p>
+            
+            <div class="checkbox-grid">
+                <label><input type="checkbox" name="toppings" value="red-sauce"> Red Sauce</label>
+                <label><input type="checkbox" name="toppings" value="white-sauce"> White Sauce</label>
+                <label><input type="checkbox" name="toppings" value="mozzarella"> Mozzarella Cheese</label>
+                <label><input type="checkbox" name="toppings" value="pepperoni"> Pepperoni</label>
+                <label><input type="checkbox" name="toppings" value="mushrooms"> Mushrooms</label>
+                <label><input type="checkbox" name="toppings" value="peppers"> Peppers</label>
+                <label><input type="checkbox" name="toppings" value="anchovies"> Anchovies</label>
+            </div>
+        </fieldset>
+
+        <fieldset class="number-section">
+            <legend>Number</legend>
+            <div class="form-row inline-row">
+                <label for="num-pizzas">How many pizzas:</label>
+                <input type="number" id="num-pizzas" name="num_pizzas" min="1" value="1">
+            </div>
+        </fieldset>
+
+        <div class="button-group">
+            <button type="submit" class="btn-submit">Bring me my pizza!</button>
+            <button type="reset" class="btn-reset">Reset</button>
+        </div>
+
+    </form>
+
+</body>
+</html>

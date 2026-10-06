@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 30px;
+}
+
+.task-box {
+    background-color: #ffffff;
+    padding: 30px;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+/* Main Heading Style */
+h1 {
+    font-size: 40px;
+    color: #222222;
+}
+
+/* List Items Styling to match the slide */
+ul {
+    list-style-type: disc;
+    font-size: 22px;
+    font-weight: bold;
+    color: #333333;
+}
+
+ul li {
+    margin: 12px 0;
+}
+
+/* 1. color */
+.p-color {
+    color: #e74c3c;
+}
+
+/* 2. text-shadow */
+.p-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* 3. text-align & direction */
+.p-align {
+    text-align: left;
+    direction: ltr;
+}
+
+/* 4. text-decoration */
+.p-deco {
+    text-decoration: underline;
+}
+
+/* 5. text-transform */
+.p-trans {
+    text-transform: uppercase;
+}
+
+/* 6. letter-spacing */
+.p-letter {
+    letter-spacing: 3px;
+}
+
+/* 7. text-indent */
+.p-indent {
+    text-indent: 20px;
+}
+
+/* 8. line-height */
+.p-height {
+    line-height: 2;
+}
+
+/* 9. word-spacing */
+.p-word {
+    word-spacing: 10px;
+}
+
+/* 10. white-space */
+.p-space {
+    white-space: nowrap;
+}
+
+/* 11. word-break */
+.p-break {
+    word-break: break-all;
+}
+
+/* 12. text-overflow */
+.p-overflow {
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
