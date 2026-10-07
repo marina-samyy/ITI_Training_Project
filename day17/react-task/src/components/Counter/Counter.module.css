@@ -1,0 +1,21 @@
+.card {
+  background-color: #fff;
+  border-radius: 1rem;
+  border-top: 6px solid #7b1fa2;
+  box-shadow: 0 6px 18px rgba(123, 31, 162, 0.15);
+  padding: 2rem;
+  text-align: center;
+}
+
+.label {
+  color: #9c27b0;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.value {
+  color: #4a148c;
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+}

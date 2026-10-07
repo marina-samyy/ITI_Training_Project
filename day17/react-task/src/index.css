@@ -1,0 +1,42 @@
+:root {
+  --purple-dark: #4a148c;
+  --purple: #7b1fa2;
+  --purple-mid: #9c27b0;
+  --purple-light: #e1bee7;
+  --purple-bg: #f3e5f5;
+}
+
+body {
+  background-color: var(--purple-bg);
+  color: #2d1b3d;
+  min-height: 100vh;
+}
+
+.section-title {
+  color: var(--purple-dark);
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.btn-purple {
+  background-color: var(--purple);
+  border-color: var(--purple);
+  color: #fff;
+}
+
+.btn-purple:hover {
+  background-color: var(--purple-dark);
+  border-color: var(--purple-dark);
+  color: #fff;
+}
+
+.btn-outline-purple {
+  background-color: transparent;
+  border: 1px solid var(--purple);
+  color: var(--purple);
+}
+
+.btn-outline-purple:hover {
+  background-color: var(--purple);
+  color: #fff;
+}

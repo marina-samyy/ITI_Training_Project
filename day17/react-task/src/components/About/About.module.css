@@ -1,0 +1,19 @@
+.box {
+  background-color: #fff;
+  border-left: 6px solid #7b1fa2;
+  border-radius: 1rem;
+  box-shadow: 0 4px 14px rgba(123, 31, 162, 0.12);
+  height: 100%;
+  padding: 1.8rem;
+}
+
+.title {
+  color: #4a148c;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.list {
+  color: #7b1fa2;
+  margin-bottom: 0;
+}
